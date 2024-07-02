@@ -41,5 +41,5 @@ if __name__ == '__main__':
     # Setting default port and IP address
     from django.core.management.commands.runserver import Command as runserver
     runserver.default_addr = '0.0.0.0'
-    runserver.default_port = '5000'
+    runserver.default_port = '8000'
     execute_from_command_line(sys.argv)
